@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
 import Bio from "../components/bio"
 
 class WorkTemplate extends React.Component {
@@ -20,7 +19,6 @@ class WorkTemplate extends React.Component {
           <header>
             <h1
               style={{
-                marginTop: rhythm(1),
                 marginBottom: 0,
               }}
             >
@@ -28,9 +26,7 @@ class WorkTemplate extends React.Component {
             </h1>
             <p
               style={{
-                ...scale(-1 / 5),
                 display: `block`,
-                marginBottom: rhythm(1),
                 fontStyle: "italic",
               }}
             >
@@ -40,8 +36,6 @@ class WorkTemplate extends React.Component {
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
-              marginBottom: rhythm(2),
-              marginTop: rhythm(2),
             }}
           />
           <footer>

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-22boxes-uno",
+  "name": "atlas-poc",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/iamtherealgd/gatsby-starter-22boxes-uno",
+  "homepage": "https://github.com/liquid-tadan/static-pwa-poc",
   "keywords": [
     "gatsby"
   ],
@@ -47,7 +47,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamtherealgd/gatsby-starter-22boxes-uno.git"
+    "url": "git+https://github.com/liquid-tadan/static-pwa-poc"
   },
   "scripts": {
     "build": "gatsby build",
