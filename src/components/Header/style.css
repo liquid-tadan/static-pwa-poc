@@ -1,0 +1,40 @@
+.header-main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    flex-flow: flex-start;
+}
+.logo-link{
+    box-shadow: none;
+    text-decoration: none;
+    color: inherit;
+}
+.logo-img{
+    margin:1.666rem;
+    min-width: 30;
+    height: 50px;
+}
+.header-nav{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-ul{
+    list-style: none;
+              height: 25px;
+              padding-top: 18px
+}
+.nav-li{
+    float: left;
+                margin-right: 20px;
+}
+.li-h1{
+    font-size: 20px;
+    font-weight: 300;
+                  margin-bottom: 0;
+                  margin-top: 0;
+}
+.li-link{
+    box-shadow: none;
+                    text-decoration: none;
+                    color: inherit;
+}
