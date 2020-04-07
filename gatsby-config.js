@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `22Boxes Template Uno`,
+    title: `ShopIT - Atlas Copcp`,
     author: {
-      name: `Gagandeep Singh`,
-      summary: `22boxes.com`,
+      name: ``,
+      summary: ``,
     },
-    description: `22Boxes Gatsby template Uno`,
-    siteUrl: `https://22boxesgatsbyuno.netlify.com/`,
+    description: `ShopIT Atlas Copco`,
+    siteUrl: `https://atlascopco.com/`,
     social: {
-      twitter: `twentytwoboxes`,
+      twitter: `atlascopco`,
     },
   },
   plugins: [
@@ -47,8 +47,8 @@ module.exports = {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
-              noIframeBorder: true,
-              width: `100%`
+              width: `100%`,
+              height: `100%`,
             },
           },
           `gatsby-remark-prismjs`,

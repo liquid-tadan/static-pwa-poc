@@ -9,17 +9,15 @@ class Header extends React.Component {
 
     const blogLinkStyle = {
       paddingBottom: location.pathname === "/" ? `5px` : `0px`,
-      boxShadow: location.pathname === "/" ? `0px 1px 0px 0px black` : `none`,
+      //boxShadow: location.pathname === "/" ? `0px 1px 0px 0px black` : `none`,
     }
     const workLinkStyle = {
       paddingBottom: location.pathname === "/about" ? `5px` : `0px`,
-      boxShadow:
-        location.pathname === "/about" ? `0px 1px 0px 0px black` : `none`,
+      //boxShadow: location.pathname === "/about" ? `0px 1px 0px 0px black` : `none`,
     }
     const aboutLinkStyle = {
       paddingBottom: location.pathname === "/work" ? `5px` : `0px`,
-      boxShadow:
-        location.pathname === "/work" ? `0px 1px 0px 0px black` : `none`,
+      //boxShadow:location.pathname === "/work" ? `0px 1px 0px 0px black` : `none`,
     }
 
     return (
@@ -31,9 +29,9 @@ class Header extends React.Component {
           <ul className="nav-ul">
             <li className="nav-li">
               <h1 className="li-h1" style={blogLinkStyle}>
-                <Link className="li-link" to={`/`}>
+                <a href="https://www.atlascopco.com/en-us/itba/industry-solutions">
                   Industries
-                </Link>
+                </a>
               </h1>
             </li>
             <li className="nav-li">
@@ -43,22 +41,25 @@ class Header extends React.Component {
                 </Link>
               </h1>
             </li>
-            <li
-              style={{
-                float: "left",
-              }}
-            >
-              <h1 className="li-h1" style={aboutLinkStyle}>
-                <Link className="li-link" to={`/work`}>
+            <li className="nav-li">
+              <h1 className="li-h1" style={workLinkStyle}>
+                <a href="https://www.atlascopco.com/en-us/itba/service">
                   Service
-                </Link>
+                </a>
+              </h1>
+            </li>
+            <li className="nav-li">
+              <h1 className="li-h1" style={workLinkStyle}>
+                <a href="https://www.atlascopco.com/en-us/itba/expert-hub">
+                  Expert Hub
+                </a>
               </h1>
             </li>
           </ul>
         </div>
       </div>
     )
-  }
+  }s
 }
 
 export default Header

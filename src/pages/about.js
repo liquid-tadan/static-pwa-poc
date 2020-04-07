@@ -13,7 +13,8 @@ const AboutPage = ({ data, location }) => {
         <div class="gatsby-remark-responsive-iframe">
         <iframe src="https://shopit-uat.atlascopco.com/en-us/AssemblyToolsandSolutions-catassembly_tools_and_solutions" 
         width="100%" 
-        height="900">
+        height="1000"
+        frameborder="0">
         </iframe>  
         </div>
     </Layout>
