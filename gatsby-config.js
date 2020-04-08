@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `ShopIT - Atlas Copcp`,
+    title: `ShopIT - Atlas Copco`,
     author: {
       name: ``,
       summary: ``,
     },
-    description: `ShopIT Atlas Copco`,
+    description: `PoC ShopIT Atlas Copco`,
     siteUrl: `https://atlascopco.com/`,
     social: {
       twitter: `atlascopco`,

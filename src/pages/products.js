@@ -9,7 +9,7 @@ const AboutPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="ShopIT" />
+      <SEO title="Products" />
         <div class="gatsby-remark-responsive-iframe">
         <iframe src="https://shopit-uat.atlascopco.com/en-us/AssemblyToolsandSolutions-catassembly_tools_and_solutions" 
         width="100%" 
